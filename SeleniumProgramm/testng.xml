@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_smoketest">
+  <test thread-count="5" name="Test_smoketest">
+    <classes>
+      <class name="TestNG.InvocationCount_program"/>
+      <class name="TestNG.TestCase3"/>
+      <class name="TestNG.Testcase2"/>
+      <class name="TestNG.TestCase1"/>
+    </classes>
+  </test> <!-- Test_smoketest -->
+</suite> <!-- Suite_smoketest -->
